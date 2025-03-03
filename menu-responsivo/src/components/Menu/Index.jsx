@@ -9,6 +9,12 @@ function Menu() {
       <header className="cabecalho">
         <div>
           <h1>Logo</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Terminar Sessão</a></li>
+          </ul>
           <button className="open btn" onClick={() => setisOpen(!isOpen)}><i className="fa-solid fa-bars-staggered"></i></button>
         </div>
       </header>
